@@ -17,6 +17,14 @@ Route::get('/', function () {
 
 
 Route::resource('admins','AdminController');
+Route::resource('shop_categorys','Shop_CategoryController');
+Route::resource('users','UserController');
+Route::resource('shops','ShopController');
+
+//商家登录和注销
+Route::get('login','LoginController@create')->name('login');
+Route::post('login','LoginController@store')->name('login');
+Route::get('logout','LoginController@destory')->name('logout');
 //相当于定义了以下路由
 /*Route::get('/users', 'UsersController@index')->name('users.index');//用户列表
 Route::get('/users/{user}', 'UsersController@show')->name('users.show');//查看单个用户信息

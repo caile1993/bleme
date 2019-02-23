@@ -1,9 +1,9 @@
 @extends('layout.app')
 
 @section('contents')
-    <h3 align="">管理员列表</h3>
-    <table class="table table-bordered" style="width: auto">
-        <tr >
+    <h3 align="center">管理员列表</h3>
+    <table class="table table-bordered">
+        <tr align="center" bgcolor="aqua">
             <th>ID</th>
             <th>姓名</th>
             <th>邮箱</th>

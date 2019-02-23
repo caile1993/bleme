@@ -19,8 +19,8 @@
                 <td>{{$shop_category->status}}</td>
 
                 <td>
-                    <a href="{{route('shop_category.edit',[$shop_category])}}" class="btn btn-info">编辑</a>
-                    <form style="display: inline" method="post" action="{{route('shop_category.destroy',[$shop_category])}}">
+                    <a href="{{route('shop_categorys.edit',[$shop_category])}}" class="btn btn-info">编辑</a>
+                    <form style="display: inline" method="post" action="{{route('shop_categorys.destroy',[$shop_category])}}">
                         {{ csrf_field() }}
                         {{ method_field('delete') }}
                         <button type="submit" class="btn btn-danger">删除</button>
@@ -29,5 +29,5 @@
         </tr>
         @endforeach
     </table>
-    {{ $shop_categorys->appends(['keyword'=>$keyword])->links() }}
+    {{--{{ $shop_categorys->appends(['keyword'=>$keyword])->links() }}--}}
 @stop

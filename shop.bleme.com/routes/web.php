@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('shop_category','Shop_CategoryController');
+Route::resource('shop_categorys','Shop_CategoryController');
 
 //相当于定义了以下路由
 /*Route::get('/users', 'UsersController@index')->name('users.index');//用户列表

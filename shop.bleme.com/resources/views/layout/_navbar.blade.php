@@ -22,8 +22,8 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">管理员管理 <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="{{route('shop_category.create')}}">添加商家分类</a></li>
-                        <li><a href="{{route('shop_category.index')}}">商家分类列表</a></li>
+                        <li><a href="{{route('shop_categorys.create')}}">添加商家分类</a></li>
+                        <li><a href="{{route('shop_categorys.index')}}">商家分类列表</a></li>
                     </ul>
                 </li>
             </ul>

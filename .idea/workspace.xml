@@ -2,35 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="231e5988-ecb9-4ef8-ba0f-8430574362e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/bleme.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin.bleme.com/resources/views/admin/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin.bleme.com/resources/views/admin/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin.bleme.com/resources/views/admin/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin.bleme.com/resources/views/layout/_errors.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin.bleme.com/resources/views/layout/_foot.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin.bleme.com/resources/views/layout/_head.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin.bleme.com/resources/views/layout/_navbar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin.bleme.com/resources/views/layout/_notice.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin.bleme.com/resources/views/layout/app.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop.bleme.com/resources/views/layout/_errors.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop.bleme.com/resources/views/layout/_foot.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop.bleme.com/resources/views/layout/_head.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop.bleme.com/resources/views/layout/_navbar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop.bleme.com/resources/views/layout/_notice.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop.bleme.com/resources/views/layout/app.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop.bleme.com/resources/views/shop_category/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop.bleme.com/resources/views/shop_category/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin.bleme.com/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin.bleme.com/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin.bleme.com/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin.bleme.com/resources/views/shop/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin.bleme.com/resources/views/shop/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin.bleme.com/resources/views/shop/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin.bleme.com/resources/views/shop_category/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin.bleme.com/resources/views/shop_category/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin.bleme.com/resources/views/shop_category/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.bleme.com/app/Models/Admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.bleme.com/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin.bleme.com/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.bleme.com/database/migrations/2019_02_21_114412_create_admins_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.bleme.com/resources/views/admin/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin.bleme.com/resources/views/admin/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin.bleme.com/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin.bleme.com/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop.bleme.com/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/shop.bleme.com/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop.bleme.com/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/shop.bleme.com/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop.bleme.com/app/Http/Controllers/Shop_CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/shop.bleme.com/app/Http/Controllers/Shop_CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop.bleme.com/resources/views/layout/_navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/shop.bleme.com/resources/views/layout/_navbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop.bleme.com/resources/views/shop_category/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/shop.bleme.com/resources/views/shop_category/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop.bleme.com/resources/views/shop_category/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/shop.bleme.com/resources/views/shop_category/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop.bleme.com/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/shop.bleme.com/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www.bleme.com/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/www.bleme.com/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,10 +33,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop.bleme.com/app/Http/Controllers/Shop_CategoryController.php">
+        <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Http/Controllers/ShopController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+            <state relative-caret-position="416">
+              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+              <folding>
+                <element signature="e#41#61#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Http/Controllers/UserController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <folding>
+                <element signature="e#40#60#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Http/Controllers/LoginController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+              <folding>
+                <element signature="e#40#60#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Http/Controllers/Shop_CategoryController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
               <folding>
                 <element signature="e#40#69#0#PHP" expanded="true" />
               </folding>
@@ -55,38 +80,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop.bleme.com/resources/views/shop_category/index.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/shop.bleme.com/resources/views/shop_category/edit.blade.php">
+        <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Http/Controllers/AdminController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+            <state relative-caret-position="338">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#40#61#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/admin/edit.blade.php">
+        <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/login/create.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop.bleme.com/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="312">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -99,40 +109,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/admin.bleme.com/database/migrations/2019_02_21_060616_create_admins_table.php" />
-        <option value="$PROJECT_DIR$/admin.bleme.com/config/app.php" />
-        <option value="$PROJECT_DIR$/admin.bleme.com/resources/views/layout/head.blade.php" />
-        <option value="$PROJECT_DIR$/admin.bleme.com/resources/views/admin/list.blade.php" />
-        <option value="$PROJECT_DIR$/admin.bleme.com/resources/views/layout/_nav.blade.php" />
-        <option value="$PROJECT_DIR$/admin.bleme.com/resources/views/layout/_head.blade.php" />
-        <option value="$PROJECT_DIR$/admin.bleme.com/resources/views/layout/_meta.blade.php" />
-        <option value="$PROJECT_DIR$/admin.bleme.com/resources/views/layout/_header.blade.php" />
-        <option value="$PROJECT_DIR$/admin.bleme.com/resources/views/layout/_footer.blade.php" />
-        <option value="$PROJECT_DIR$/admin.bleme.com/resources/views/layout/_menu.blade.php" />
-        <option value="$PROJECT_DIR$/admin.bleme.com/resources/views/layout/_blank.blade.php" />
-        <option value="$PROJECT_DIR$/admin.bleme.com/resources/views/layout/app.blade.php" />
-        <option value="$PROJECT_DIR$/admin.bleme.com/database/migrations/2019_02_21_103729_create_admins_table.php" />
-        <option value="$PROJECT_DIR$/admin.bleme.com/routes/web.php" />
-        <option value="$PROJECT_DIR$/admin.bleme.com/database/migrations/2019_02_21_114412_create_admins_table.php" />
-        <option value="$PROJECT_DIR$/admin.bleme.com/.env" />
-        <option value="$PROJECT_DIR$/admin.bleme.com/app/Providers/AppServiceProvider.php" />
-        <option value="$PROJECT_DIR$/admin.bleme.com/resources/views/layout/_navbar.blade.php" />
-        <option value="$PROJECT_DIR$/admin.bleme.com/app/Models/Admin.php" />
-        <option value="$PROJECT_DIR$/admin.bleme.com/app/Http/Controllers/AdminController.php" />
-        <option value="$PROJECT_DIR$/admin.bleme.com/resources/views/admin/edit.blade.php" />
-        <option value="$PROJECT_DIR$/admin.bleme.com/resources/views/admin/index.blade.php" />
         <option value="$PROJECT_DIR$/shop.bleme.com/.env" />
         <option value="$PROJECT_DIR$/shop.bleme.com/database/migrations/2019_02_21_140755_create_shop__categories_table.php" />
         <option value="$PROJECT_DIR$/shop.bleme.com/config/app.php" />
         <option value="$PROJECT_DIR$/shop.bleme.com/app/Providers/AppServiceProvider.php" />
-        <option value="$PROJECT_DIR$/shop.bleme.com/resources/views/layout/_navbar.blade.php" />
         <option value="$PROJECT_DIR$/admin.bleme.com/resources/views/admin/create.blade.php" />
-        <option value="$PROJECT_DIR$/shop.bleme.com/resources/views/shop_category/create.blade.php" />
         <option value="$PROJECT_DIR$/shop.bleme.com/app/Models/Shop_Category.php" />
         <option value="$PROJECT_DIR$/shop.bleme.com/routes/web.php" />
+        <option value="$PROJECT_DIR$/www.bleme.com/resources/views/layout/app.blade.php" />
+        <option value="$PROJECT_DIR$/www.bleme.com/app/Http/Controllers/TestController.php" />
+        <option value="$PROJECT_DIR$/www.bleme.com/resources/views/test/index.blade.php" />
+        <option value="$PROJECT_DIR$/www.bleme.com/resources/views/layout/_blank.blade.php" />
+        <option value="$PROJECT_DIR$/www.bleme.com/resources/views/layout/_footer.blade.php" />
+        <option value="$PROJECT_DIR$/www.bleme.com/resources/views/layout/_meta.blade.php" />
+        <option value="$PROJECT_DIR$/www.bleme.com/resources/views/layout/_header.blade.php" />
+        <option value="$PROJECT_DIR$/www.bleme.com/routes/web.php" />
+        <option value="$PROJECT_DIR$/shop.bleme.com/resources/views/layout/_navbar.blade.php" />
+        <option value="$PROJECT_DIR$/shop.bleme.com/resources/views/shop_category/create.blade.php" />
         <option value="$PROJECT_DIR$/shop.bleme.com/resources/views/shop_category/index.blade.php" />
-        <option value="$PROJECT_DIR$/shop.bleme.com/app/Http/Controllers/Shop_CategoryController.php" />
         <option value="$PROJECT_DIR$/shop.bleme.com/resources/views/shop_category/edit.blade.php" />
+        <option value="$PROJECT_DIR$/admin.bleme.com/database/migrations/2019_02_22_015045_create_shop__categories_table.php" />
+        <option value="$PROJECT_DIR$/admin.bleme.com/.env" />
+        <option value="$PROJECT_DIR$/admin.bleme.com/config/app.php" />
+        <option value="$PROJECT_DIR$/admin.bleme.com/database/migrations/2019_02_22_100456_create_admins_table.php" />
+        <option value="$PROJECT_DIR$/admin.bleme.com/app/Http/Controllers/Shop_categoryController.php" />
+        <option value="$PROJECT_DIR$/shop.bleme.com/app/Http/Controllers/Shop_CategoryController.php" />
+        <option value="$PROJECT_DIR$/admin.bleme.com/resources/views/shop_category/create.blade.php" />
+        <option value="$PROJECT_DIR$/admin.bleme.com/app/Models/Shop_Category.php" />
+        <option value="$PROJECT_DIR$/admin.bleme.com/resources/views/shop_category/edit.blade.php" />
+        <option value="$PROJECT_DIR$/admin.bleme.com/app/Models/Admin.php" />
+        <option value="$PROJECT_DIR$/admin.bleme.com/database/migrations/2019_02_22_112916_create_users_table.php" />
+        <option value="$PROJECT_DIR$/admin.bleme.com/database/migrations/2019_02_22_125402_create_shops_table.php" />
+        <option value="$PROJECT_DIR$/admin.bleme.com/resources/views/shop_category/index.blade.php" />
+        <option value="$PROJECT_DIR$/admin.bleme.com/resources/views/admin/index.blade.php" />
+        <option value="$PROJECT_DIR$/admin.bleme.com/app/Models/Shop.php" />
+        <option value="$PROJECT_DIR$/admin.bleme.com/resources/views/shop/edit.blade.php" />
+        <option value="$PROJECT_DIR$/admin.bleme.com/resources/views/shop/show.blade.php" />
+        <option value="$PROJECT_DIR$/admin.bleme.com/resources/views/shop/create.blade.php" />
+        <option value="$PROJECT_DIR$/admin.bleme.com/routes/web.php" />
+        <option value="$PROJECT_DIR$/admin.bleme.com/resources/views/shop/index.blade.php" />
+        <option value="$PROJECT_DIR$/admin.bleme.com/resources/views/user/create.blade.php" />
+        <option value="$PROJECT_DIR$/admin.bleme.com/resources/views/user/index.blade.php" />
+        <option value="$PROJECT_DIR$/admin.bleme.com/config/auth.php" />
+        <option value="$PROJECT_DIR$/admin.bleme.com/app/Models/User.php" />
+        <option value="$PROJECT_DIR$/admin.bleme.com/resources/views/layout/_navbar.blade.php" />
+        <option value="$PROJECT_DIR$/admin.bleme.com/app/Http/Controllers/AdminController.php" />
+        <option value="$PROJECT_DIR$/admin.bleme.com/app/Http/Controllers/Shop_CategoryController.php" />
+        <option value="$PROJECT_DIR$/admin.bleme.com/app/Http/Controllers/ShopController.php" />
+        <option value="$PROJECT_DIR$/admin.bleme.com/resources/views/login/create.blade.php" />
+        <option value="$PROJECT_DIR$/admin.bleme.com/app/Http/Middleware/RedirectIfAuthenticated.php" />
+        <option value="$PROJECT_DIR$/admin.bleme.com/app/Http/Controllers/LoginController.php" />
+        <option value="$PROJECT_DIR$/admin.bleme.com/app/Http/Controllers/UserController.php" />
       </list>
     </option>
   </component>
@@ -218,10 +245,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="103" />
-    <option name="y" value="46" />
-    <option name="width" value="1808" />
-    <option name="height" value="910" />
+    <option name="x" value="118" />
+    <option name="y" value="75" />
+    <option name="width" value="1752" />
+    <option name="height" value="952" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -229,6 +256,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -259,29 +287,13 @@
               <item name="bleme" type="462c0819:PsiDirectoryNode" />
               <item name="admin.bleme.com" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bleme" type="b2602c69:ProjectViewProjectNode" />
               <item name="bleme" type="462c0819:PsiDirectoryNode" />
               <item name="admin.bleme.com" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bleme" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bleme" type="462c0819:PsiDirectoryNode" />
-              <item name="admin.bleme.com" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bleme" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bleme" type="462c0819:PsiDirectoryNode" />
-              <item name="admin.bleme.com" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bleme" type="b2602c69:ProjectViewProjectNode" />
@@ -292,53 +304,13 @@
             <path>
               <item name="bleme" type="b2602c69:ProjectViewProjectNode" />
               <item name="bleme" type="462c0819:PsiDirectoryNode" />
-              <item name="shop.bleme.com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bleme" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bleme" type="462c0819:PsiDirectoryNode" />
-              <item name="shop.bleme.com" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bleme" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bleme" type="462c0819:PsiDirectoryNode" />
-              <item name="shop.bleme.com" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bleme" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bleme" type="462c0819:PsiDirectoryNode" />
-              <item name="shop.bleme.com" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bleme" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bleme" type="462c0819:PsiDirectoryNode" />
-              <item name="shop.bleme.com" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bleme" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bleme" type="462c0819:PsiDirectoryNode" />
-              <item name="shop.bleme.com" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="shop_category" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bleme" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bleme" type="462c0819:PsiDirectoryNode" />
-              <item name="shop.bleme.com" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="admin.bleme.com" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -346,18 +318,19 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\phpStudy\WWW\bleme\admin.bleme.com\public" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\phpStudy\WWW\bleme\shop.bleme.com\resources\views\shop_category" />
-      <recent name="E:\phpStudy\WWW\bleme\shop.bleme.com\resources\views" />
-      <recent name="E:\phpStudy\WWW\bleme\admin.bleme.com\resources\views\admin" />
+      <recent name="E:\phpStudy\WWW\bleme\admin.bleme.com\resources\views\login" />
+      <recent name="E:\phpStudy\WWW\bleme\admin.bleme.com\resources\views\shop" />
+      <recent name="E:\phpStudy\WWW\bleme\admin.bleme.com\resources\views\user" />
       <recent name="E:\phpStudy\WWW\bleme\admin.bleme.com\resources\views" />
-      <recent name="E:\phpStudy\WWW\bleme\admin.bleme.com\resources\views\layout" />
+      <recent name="E:\phpStudy\WWW\bleme\shop.bleme.com\resources\views\shop_category" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -385,18 +358,24 @@
       <workItem from="1550720990418" duration="3599000" />
       <workItem from="1550726893291" duration="15943000" />
       <workItem from="1550745321332" duration="3372000" />
-      <workItem from="1550749195405" duration="11664000" />
+      <workItem from="1550749195405" duration="12185000" />
+      <workItem from="1550766220345" duration="199000" />
+      <workItem from="1550766878248" duration="740000" />
+      <workItem from="1550767883747" duration="635000" />
+      <workItem from="1550797511263" duration="26103000" />
+      <workItem from="1550842583594" duration="841000" />
+      <workItem from="1550900204272" duration="14708000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34578000" />
+    <option name="totallyTimeSpent" value="78325000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16992188" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16536458" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -409,8 +388,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.5890411" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.5217391" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3285528" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -421,275 +400,13 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Providers/RouteServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-138" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="128" column="38" lean-forward="true" selection-start-line="128" selection-start-column="38" selection-end-line="128" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Console/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-414">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Exceptions/Handler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-276" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Http/Middleware/EncryptCookies.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-127" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Http/Middleware/RedirectIfAuthenticated.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-311" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/layout/_nav.blade.php" />
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/admin/list.blade.php" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/core-scripting.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/layout/_meta.blade.php" />
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/layout/_blank.blade.php" />
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/layout/_footer.blade.php" />
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/layout/_menu.blade.php" />
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/layout/_header.blade.php" />
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-483">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/layout/_head.blade.php">
+    <entry file="file://$PROJECT_DIR$/www.bleme.com/resources/views/layout/_meta.blade.php" />
+    <entry file="file://$PROJECT_DIR$/www.bleme.com/resources/views/layout/_menu.blade.php" />
+    <entry file="file://$PROJECT_DIR$/www.bleme.com/resources/views/layout/_header.blade.php" />
+    <entry file="file://$PROJECT_DIR$/www.bleme.com/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/layout/_errors.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/layout/_notice.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/layout/_foot.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/database/migrations/2019_02_21_103729_create_admins_table.php" />
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/admin.php" />
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/layout/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/admin/admin/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1265">
-          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/admin/layout/base.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1495">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/admin/usermember/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="51" column="42" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/admin/admin.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5336">
-          <caret line="232" column="14" selection-start-line="232" selection-start-column="14" selection-end-line="232" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/database/migrations/2014_10_12_000000_create_users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="20" column="36" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="20" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/database/migrations/2019_02_21_114412_create_admins_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Http/Controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop.bleme.com/database/migrations/2019_02_21_140755_create_shop__categories_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Providers/AppServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="41" />
-          <folding>
-            <element signature="e#33#71#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop.bleme.com/app/Providers/AppServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-          <folding>
-            <element signature="e#33#71#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop.bleme.com/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="86" column="5" lean-forward="true" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop.bleme.com/config/auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="91" column="6" lean-forward="true" selection-start-line="91" selection-start-column="6" selection-end-line="91" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop.bleme.com/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/layout/_navbar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="57" column="40" lean-forward="true" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Models/Admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop.bleme.com/resources/views/layout/_navbar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/admin/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/admin/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop.bleme.com/app/Models/Shop_Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding>
-            <element signature="e#30#69#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop.bleme.com/resources/views/shop_category/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Http/Controllers/AdminController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-          <folding>
-            <element signature="e#40#61#0#PHP" expanded="true" />
-          </folding>
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -700,34 +417,348 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/shop.bleme.com/resources/views/layout/_navbar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/shop.bleme.com/resources/views/shop_category/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        <state relative-caret-position="414">
+          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop.bleme.com/resources/views/shop_category/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop.bleme.com/resources/views/shop_category/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop.bleme.com/database/migrations/2019_02_21_140755_create_shop__categories_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="20" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/database/migrations/2019_02_21_114412_create_admins_table.php" />
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <folding>
+            <element signature="e#33#71#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/layout/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop.bleme.com/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding>
+            <element signature="e#33#71#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shop.bleme.com/app/Http/Controllers/Shop_CategoryController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+        <state relative-caret-position="-437">
+          <caret line="47" column="2" lean-forward="true" selection-start-line="47" selection-start-column="2" selection-end-line="47" selection-end-column="2" />
           <folding>
             <element signature="e#40#69#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/admin/edit.blade.php">
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/config/app.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="184">
+          <caret line="101" column="32" lean-forward="true" selection-start-line="101" selection-start-column="32" selection-end-line="101" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop.bleme.com/resources/views/shop_category/edit.blade.php">
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/shop_category/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        <state relative-caret-position="276">
+          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding>
+            <element signature="e#450#470#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Models/Admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/database/migrations/2014_10_12_000000_create_users_table.php" />
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/database/migrations/2014_10_12_100000_create_password_resets_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/database/migrations/2019_02_22_125402_create_shops_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="34" column="11" lean-forward="true" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/database/migrations/2019_02_22_015045_create_shop__categories_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/tables.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="216" column="16" selection-start-line="216" selection-start-column="16" selection-end-line="216" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/database/migrations/2019_02_22_100456_create_admins_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/shop_category/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/database/migrations/2019_02_22_112916_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/admin/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/admin/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/shop_category/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/admin/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/shop/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/shop/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/shop/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/user/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+          <folding>
+            <element signature="e#420#440#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/shop/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Models/Shop_Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="e#30#69#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#30#69#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/user/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Models/Shop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#30#69#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/config/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="64" column="6" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/login/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Http/Middleware/RedirectIfAuthenticated.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Http/Controllers/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="e#40#60#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Http/Controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="e#40#60#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Http/Controllers/ShopController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding>
+            <element signature="e#41#61#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Http/Controllers/Shop_CategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="e#40#69#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/layout/_navbar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="69" column="22" lean-forward="true" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Http/Controllers/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#40#61#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
