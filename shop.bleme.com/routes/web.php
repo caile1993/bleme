@@ -15,7 +15,23 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('shop_categorys','Shop_CategoryController');
+
+Route::resource('users','UserController');
+Route::resource('shops','ShopController');
+//菜品分类
+Route::resource('menu_categorys','Menu_CategoryController');
+//商户登录和注销
+Route::get('login','LoginController@create')->name('login');
+Route::post('login','LoginController@store')->name('login');
+Route::get('logout','LoginController@destory')->name('logout');
+
+//商户注册
+Route::get('sigup','SigupController@create')->name('sigup');
+Route::post('sigup','SigupController@store')->name('sigup.store');
+//修改密码
+Route::get('edit_pwd','Edit_pwdController@create')->name('edit_pwd');
+Route::post('edit_pwd','Edit_pwdController@store')->name('edit_pwd');
+
 
 //相当于定义了以下路由
 /*Route::get('/users', 'UsersController@index')->name('users.index');//用户列表

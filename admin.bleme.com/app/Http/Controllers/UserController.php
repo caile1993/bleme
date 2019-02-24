@@ -53,6 +53,22 @@ class UserController extends Controller
                 'status'=>$request->status,
                 'shop_id'=>$request->shop_id,
             ]);
+
             return redirect()->route('users.index')->with('success','添加成功');
     }
+        //状态
+    public function status(User $user){
+        if($user->status){
+            $user->status = 0;
+            $user->save();
+            return redirect()->route('users.index')->with('danger','账号禁用成功');
+        }else {
+            $user->status = 1;
+            $user->save();
+            return redirect()->route('users.index')->with('success', '账号启用成功');
+        }
+
+    }
+
+
 }

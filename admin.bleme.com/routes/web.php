@@ -16,12 +16,19 @@ Route::get('/', function () {
 });
 
 
-Route::resource('admins','AdminController');
-Route::resource('shop_categorys','Shop_CategoryController');
-Route::resource('users','UserController');
-Route::resource('shops','ShopController');
 
-//商家登录和注销
+Route::resource('shop_categorys','Shop_CategoryController');
+Route::resource('shops','ShopController');
+//审核
+Route::get('shops/audit/{shop}','ShopController@audit')->name('shops.audit');
+//禁用
+Route::get('shops/forbidden/{shop}','ShopController@forbidden')->name('shops.forbidden');
+Route::resource('admins','AdminController');
+
+Route::resource('users','UserController');
+Route::get('users/status/{user}','UserController@status')->name('users.status');
+
+//管理员登录和注销
 Route::get('login','LoginController@create')->name('login');
 Route::post('login','LoginController@store')->name('login');
 Route::get('logout','LoginController@destory')->name('logout');

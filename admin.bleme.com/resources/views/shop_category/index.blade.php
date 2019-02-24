@@ -11,7 +11,7 @@
             <th>操作</th>
         </tr>
 
-        <tr align="center">
+        <tr>
             @foreach($shop_categorys as $shop_category)
                 <td>{{$shop_category->id}}</td>
                 <td>{{$shop_category->name}}</td>

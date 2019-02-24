@@ -1,7 +1,7 @@
 @extends('layout.app')
 
 @section('contents')
-    <h1 align="center">管理员登录</h1>
+    <h1 align="center">商家登录</h1>
     <div class="col-md-offset-2 col-md-8">
         <div class="panel panel-default">
             <div class="panel-heading">
@@ -28,7 +28,7 @@
                     <button type="submit" class="btn btn-primary">登录</button>
                 </form>
                 <hr>
-                <p>还没账号？<a href="">立即注册！</a></p>
+                <p>还没账号？<a href="{{route('sigup')}}">立即注册！</a></p>
             </div>
         </div>
     </div>

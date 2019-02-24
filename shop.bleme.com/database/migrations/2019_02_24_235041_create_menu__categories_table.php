@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateShopCategoriesTable extends Migration
+class CreateMenuCategoriesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,14 +13,16 @@ class CreateShopCategoriesTable extends Migration
      */
     public function up()
     {
-        Schema::create('shop__categories', function (Blueprint $table) {
+        Schema::create('menu__categories', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
-            $table->string('img');
-            $table->integer('status');
+            $table->string('type_accumulation');
+            $table->integer('shop_id');
+            $table->string('description');
+            $table->string('is_selected');
             $table->timestamps();
+            $table->engine = 'innoDB';
         });
-        \Illuminate\Support\Facades\DB::statement('ALTER TABLE shop_categories ENGUNE=InnoDB');
     }
 
     /**
@@ -30,6 +32,6 @@ class CreateShopCategoriesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('shop__categories');
+        Schema::dropIfExists('menu__categories');
     }
 }

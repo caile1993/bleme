@@ -9,11 +9,11 @@ use Illuminate\Http\Request;
 
 class ShopController extends Controller
 {
-    //登录认证
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
+//    //登录认证
+//    public function __construct()
+//    {
+//        $this->middleware('auth');
+//    }
     //
     public function index(Request $request){
         $keyword = $request->keyword;
@@ -47,7 +47,7 @@ class ShopController extends Controller
                 'notice'=>'required',
                 'discount'=>'required',
                 'notice'=>'required',
-                'status'=>'required',
+//                'status'=>'required',
                 'shop_img'=>'image|max:2048',
             ],[
                'shop_category_id.required'=>'请选择店铺分类',
@@ -63,7 +63,7 @@ class ShopController extends Controller
                'send_cost.required'=>'请填写配送费',
                'notice.required'=>'请填写店公告',
                'discount.required'=>'请填写优惠信息',
-               'status.required'=>'请选择状态',
+//               'status.required'=>'请选择状态',
                'shop_img.image'=>'图片格式不正确',
                'shop_img.max'=>'图片不能超过2M',
             ]);
@@ -84,7 +84,7 @@ class ShopController extends Controller
             'send_cost'=>$request->send_cost,
             'notice'=>$request->notice,
             'discount'=>$request->discount,
-            'status'=>$request->status,
+//            'status'=>$request->status,
             'shop_img'=>$path,
         ];
             Shop::create($data);
@@ -110,7 +110,7 @@ class ShopController extends Controller
         $shop->send_cost = $request->send_cost;
         $shop->notice = $request->notice;
         $shop->discount = $request->discount;
-        $shop->status = $request->status;
+//        $shop->status = $request->status;
         $shop_img = $request->file('shop_img');
         if($shop_img){//上传图片
             $path = $shop_img->store('public/images');
@@ -132,9 +132,36 @@ class ShopController extends Controller
         $shop->delete();
         return redirect()->route('shops.index')->with('success','删除成功');
     }
+    //审核
+    public function audit(Shop $shop)
+    {
+        if ($shop->status==1){
+            $shop->status = 0;
+            $shop->save();
+            return redirect()->route('shops.index')->with('danger','审核未通过');
+        }else{
+            $shop->status = 1;
+            $shop->save();
+            return redirect()->route('shops.index')->with('success','审核通过');
+        }
 
+    }
+        //禁用
+    public function forbidden(Shop $shop)
+    {
+        if($shop->status==1){
+            $shop->status = -1;
+            $shop->save();
+            return redirect()->route('shops.index')->with('danger','此商户已被禁用');
+        }else{
+            $shop->status = 1;
+            $shop->save();
+            return redirect()->route('shops.index')->with('success','此商户已启用');
+        }
+    }
 
 }
+
 
 
 

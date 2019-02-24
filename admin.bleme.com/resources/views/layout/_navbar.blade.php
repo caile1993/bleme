@@ -10,7 +10,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">管理中心</a>
+            <a class="navbar-brand" href="#">管理员中心</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -24,8 +24,6 @@
                     </ul>
                 </li>
             </ul>
-
-
 
             <ul class="nav navbar-nav">
                 <li class="dropdown">
@@ -41,24 +39,11 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">商家信息管理 <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="{{ route('shops.create') }}">添加商家信息</a></li>
                         <li><a href="{{ route('shops.index') }}">商家信息列表</a></li>
-                    </ul>
-                </li>
-            </ul>
-
-            <ul class="nav navbar-nav">
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">商家账号管理 <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="{{ route('users.create') }}">添加商家账号</a></li>
                         <li><a href="{{ route('users.index') }}">商家账号列表</a></li>
                     </ul>
                 </li>
             </ul>
-
-
-
             <form class="navbar-form navbar-left">
                 <div class="form-group">
                     <input type="text" name="keyword" class="form-control" placeholder="搜索">
@@ -68,7 +53,7 @@
 
             <ul class="nav navbar-nav navbar-right">
                 @guest
-                <li><a href="">登录</a></li>
+                <li><a href="{{route('login')}}">登录</a></li>
                 @endguest
 
                 <li class="dropdown">

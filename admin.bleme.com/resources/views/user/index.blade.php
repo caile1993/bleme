@@ -27,6 +27,16 @@
                         {{ method_field('delete') }}
                         <button type="submit" class="btn btn-danger">删除</button>
                     </form>
+
+                    @if($user->status)
+                   <a href="{{route('users.status',[$user])}}" class="btn btn-warning">禁用</a>
+                    @else
+                        <a href="{{route('users.status',[$user])}}" class="btn btn-warning" >启用</a>
+                    @endif
+
+
+
+
                 </td>
         </tr>
         @endforeach
