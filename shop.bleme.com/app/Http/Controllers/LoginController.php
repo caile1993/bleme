@@ -36,7 +36,7 @@ class LoginController extends Controller
             'name' => $request->name,
             'password' => $request->password,
         ], $request->has('remember'))) {
-            return redirect()->route('users.index')->with('success', '登录成功');
+            return redirect()->route('menu_categorys.index')->with('success', '登录成功');
         } else {
             return back()->with('danger', '请填写正确的账号密码');
         }

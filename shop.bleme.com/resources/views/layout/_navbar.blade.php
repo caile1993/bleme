@@ -25,6 +25,25 @@
                 </li>
             </ul>
 
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">菜品管理 <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="{{route('menus.create')}}">添加菜品</a></li>
+                        <li><a href="{{route('menus.index')}}">菜品列表</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">查看活动<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="{{route('activitys.index')}}">活动列表</a></li>
+                    </ul>
+                </li>
+            </ul>
+
             <form class="navbar-form navbar-left">
                 <div class="form-group">
                     <input type="text" name="keyword" class="form-control" placeholder="搜索">

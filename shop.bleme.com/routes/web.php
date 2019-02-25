@@ -18,6 +18,8 @@ Route::get('/', function () {
 
 Route::resource('users','UserController');
 Route::resource('shops','ShopController');
+//设置
+Route::get('menu_categorys/set/{menu_category}','Menu_CategoryController@set')->name('menu_categorys.set');
 //菜品分类
 Route::resource('menu_categorys','Menu_CategoryController');
 //商户登录和注销
@@ -32,6 +34,13 @@ Route::post('sigup','SigupController@store')->name('sigup.store');
 Route::get('edit_pwd','Edit_pwdController@create')->name('edit_pwd');
 Route::post('edit_pwd','Edit_pwdController@store')->name('edit_pwd');
 
+
+//菜品状态设置路由
+Route::get('menus/set/{menu}','MenuController@set')->name('menus.set');
+//菜品表
+Route::resource('menus','MenuController');
+//活动
+Route::resource('activitys','ActivityController');
 
 //相当于定义了以下路由
 /*Route::get('/users', 'UsersController@index')->name('users.index');//用户列表

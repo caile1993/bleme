@@ -14,6 +14,7 @@
                     <div class="form-group">
                         <label for="name">选择店铺类型：</label>
                         <select class="form-control" name="shop_category_id">
+                            <option value="">请选择类型</option>
                             @foreach($shop_categorys as $shop_category)
                                 <option value="{{$shop_category->id}}">{{$shop_category->name}}</option>
                             @endforeach
@@ -102,8 +103,8 @@
                     <div class="form-group">
                         <label for="name">所属商家：</label>
                         <select name="shop_id">
+                            <option value="">请选择所属商家</option>
                         @foreach($shops as $shop)
-                        <option value="">请选择所属商家</option>
                         <option value="{{$shop->id}}">{{$shop->shop_name}}</option>
                         @endforeach
                         </select>

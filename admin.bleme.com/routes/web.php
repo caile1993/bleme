@@ -32,6 +32,9 @@ Route::get('users/status/{user}','UserController@status')->name('users.status');
 Route::get('login','LoginController@create')->name('login');
 Route::post('login','LoginController@store')->name('login');
 Route::get('logout','LoginController@destory')->name('logout');
+//活动路由
+Route::resource('activitys','ActivityController');
+
 //相当于定义了以下路由
 /*Route::get('/users', 'UsersController@index')->name('users.index');//用户列表
 Route::get('/users/{user}', 'UsersController@show')->name('users.show');//查看单个用户信息

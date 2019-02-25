@@ -12,5 +12,5 @@ class ShopController extends Controller
         $shop_categorys = Shop_Category::all();
         return view('shop.create',compact('shop_categorys'));
     }
-
+    
 }
