@@ -12,21 +12,26 @@ class ActivityController extends Controller
         $this->middleware('auth');
     }
 
-    //首页
-    public function index(Request $request){
-            $keyword = $request->keyword;
-            if($keyword){
-                $activitys = Activity::where('title','like',"%$keyword%")->paginate(3);
-            }else{
-                $activitys = Activity::paginate(3);
-            }
-            return view('activity.index',compact('activitys','keyword'));
+    public function index(Request $request)
+    {
+        $activitys = Activity::paginate(3);
+        $time = date("Y-m-d H:i:s");
+
+        if($request->keyword==1){
+            $activitys = Activity::where('start_time','>',$time)->paginate(3);//未进行的条件
+        }elseif($request->keyword==2){
+            $activitys = Activity::where('start_time','<',$time)->where('end_time','>',$time)->paginate(3);//进行中的条件
+        }elseif($request->keyword==3){
+            $activitys = Activity::where('end_time','<',$time)->paginate(3);//已结束的条件
+        }
+
+        return view('activity.index',['activitys' => $activitys,'keyword'=>$request->keyword]);
     }
 
     public function create(){
         return view('activity.create');
     }
-
+        
     public function store(Request $request){
         $this->validate($request,[
             'title'=>'required',

@@ -12,6 +12,13 @@ use Illuminate\Support\Facades\Hash;
 
 class SigupController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('guest',[
+            'only' => 'guest',
+        ]);
+    }
+
     //注册页面
     public function create(){
         $shops = Shop::all();

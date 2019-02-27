@@ -1,26 +1,33 @@
 @extends('layout.app')
-
 @section('contents')
-    <h3 align="">修改管理员</h3>
-    @include('layout._errors')
-    <form method="post" action="{{route('admins.update',[$admin])}}" >
-        <div class="form-group" style="width: 300px">
-            <label>姓名:</label>
-            <input type="text" name="name" class="form-control" value="{{$admin->name}}">
-        </div>
-
-        <div class="form-group" style="width: 300px">
-            <label>邮箱:</label>
-            <input type="text" name="email" class="form-control" value="{{$admin->email}}">
-        </div>
-
-        <div class="form-group" style="width: 300px">
-            <label>密码:</label>
-            <input type="password" name="password" class="form-control" value="{{$admin->password}}">
-        </div>
-
+    <form role="form"  method="post" action="{{route('admins.update',[$admin])}}">
         {{ csrf_field() }}
-        {{ method_field('patch') }}
-        <button type="submit" class="btn btn-primary">提交</button>
+        {{method_field('patch')}}
+        <div class="form-group">
+            <span class="input-group-text"><i class="fa fa-user"></i></span>
+            <input type="text" name="name" class="form-control" placeholder="Username" value="{{$admin->name}}">
+        </div>
+
+        <div class="form-group">
+            <span class="input-group-text"><i class="fa fa-envelope"></i></span>
+            <input type="text" name="email" class="form-control" placeholder="email" value="{{$admin->email}}">
+        </div>
+
+         {{--<div class="form-group">--}}
+            {{--<span class="input-group-text"><i class="fa fa-credit-card"></i></span>--}}
+            {{--<input type="password" name="password" class="form-control" id="exampleInputPassword3" placeholder="Password">--}}
+        {{--</div>--}}
+        {{--<div class="form-group">--}}
+        {{--<label for="exampleInputFile">File input</label>--}}
+        {{--<input type="file" id="exampleInputFile3">--}}
+        {{--<p class="help-block">Example block-level help text here.</p>--}}
+        {{--</div>--}}
+        {{--<div class="checkbox">--}}
+        {{--<label>--}}
+        {{--<input type="checkbox"> Check me out--}}
+        {{--</label>--}}
+        {{--</div>--}}
+        <button type="submit" class="btn btn-default">提交</button>
     </form>
-    @stop
+
+@stop

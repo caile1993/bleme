@@ -74,6 +74,7 @@
       <path value="$PROJECT_DIR$/www.bleme.com/vendor/nesbot/carbon" />
       <path value="$PROJECT_DIR$/www.bleme.com/vendor/laravel/framework" />
       <path value="$PROJECT_DIR$/www.bleme.com/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/www.bleme.com/vendor/overtrue/laravel-ueditor" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7" />

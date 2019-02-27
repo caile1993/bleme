@@ -8,11 +8,11 @@ use Illuminate\Support\Facades\Hash;
 
 class AdminController extends Controller
 {
-//    //登录认证
-//    public function __construct()
-//    {
-//        $this->middleware('auth');
-//    }
+    //登录认证
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
 
     //首页
     public function index(Request $request)

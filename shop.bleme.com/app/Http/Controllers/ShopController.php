@@ -7,6 +7,11 @@ use Illuminate\Http\Request;
 
 class ShopController extends Controller
 {
+
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
     //
     public function create(){
         $shop_categorys = Shop_Category::all();

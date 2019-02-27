@@ -1,9 +1,8 @@
-@include('layout._head')
+@include('layout._header')
+@include('layout._left')
+<div class="content">
+	@include('layout._notice')
 
-<div class="container">
-    @include('layout._navbar')
-    @include('layout._notice')
-    @yield('contents')
+	@yield('contents')
 </div>
-
-@include('layout._foot')
+@include('layout._foot')						   

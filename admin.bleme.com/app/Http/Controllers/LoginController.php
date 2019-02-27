@@ -7,6 +7,13 @@ use Illuminate\Support\Facades\Auth;
 
 class LoginController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('guest',[
+            'only' => 'create',
+        ]);
+    }
+
     //管理员登录
     public function create()
     {

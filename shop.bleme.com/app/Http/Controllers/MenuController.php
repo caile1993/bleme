@@ -11,7 +11,10 @@ use Illuminate\Support\Facades\Auth;
 
 class MenuController extends Controller
 {
-
+    public function __construct()
+    {
+        $this->middleware('auth');
+     }
     //添加
     public function create()
     {

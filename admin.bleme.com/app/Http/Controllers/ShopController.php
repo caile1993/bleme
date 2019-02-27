@@ -9,11 +9,11 @@ use Illuminate\Http\Request;
 
 class ShopController extends Controller
 {
-//    //登录认证
-//    public function __construct()
-//    {
-//        $this->middleware('auth');
-//    }
+    //登录认证
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
     //
     public function index(Request $request){
         $keyword = $request->keyword;

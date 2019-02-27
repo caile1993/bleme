@@ -1,10 +1,8 @@
 @extends('layout.app')
 
 @section('contents')
-    <h3 align="center">修改商家信息</h3>
-    @include('layout._errors')
-
-    <form class="form-horizontal" method="post" action="{{route('shops.update',[$shop])}}" enctype="multipart/form-data">
+    <h3 align="">修改商家信息</h3>
+    <form role="form"  method="post" action="{{route('shops.update',[$shop])}}" enctype="multipart/form-data">
         {{method_field('patch')}}
         {{csrf_field()}}
         <div class="form-group">
@@ -26,10 +24,9 @@
         </div>
 
         <div class="form-group">
-            <label for="exampleInputFile" class="col-sm-2 control-label">店铺图片：</label>
-            <input type="file" name="shop_img">
-            <img style="width: 50px" src="{{$shop->shop_img()}}" alt="" class="img-circle">
-
+            <p class="help-block"> <img style="width: 50px" src="{{$shop->shop_img()}}"></p>
+            <label for="exampleInputFile">File input</label>
+            <input type="file" name="shop_img" id="exampleInputFile3">
         </div>
 
         <div class="form-group">

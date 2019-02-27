@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Hash;
 
 class UserController extends Controller
 {
-//登录认证
+        //登录认证
     public function __construct()
     {
         $this->middleware('auth');

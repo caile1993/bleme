@@ -27,11 +27,14 @@ Route::resource('admins','AdminController');
 
 Route::resource('users','UserController');
 Route::get('users/status/{user}','UserController@status')->name('users.status');
-
+//修改密码
+Route::get('passwd','PasswdController@create')->name('passwd');
+Route::post('passwd','PasswdController@ChangePassword')->name('passwd');
 //管理员登录和注销
 Route::get('login','LoginController@create')->name('login');
 Route::post('login','LoginController@store')->name('login');
 Route::get('logout','LoginController@destory')->name('logout');
+
 //活动路由
 Route::resource('activitys','ActivityController');
 

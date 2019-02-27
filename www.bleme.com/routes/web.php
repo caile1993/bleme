@@ -15,3 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+//商家列表
+Route::get('/api/business_list','Api\ApiController@BusinessList');
+Route::get('/api/business','Api\ApiController@Business');

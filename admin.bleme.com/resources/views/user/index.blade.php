@@ -33,10 +33,6 @@
                     @else
                         <a href="{{route('users.status',[$user])}}" class="btn btn-warning" >启用</a>
                     @endif
-
-
-
-
                 </td>
         </tr>
         @endforeach

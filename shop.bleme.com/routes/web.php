@@ -31,8 +31,9 @@ Route::get('logout','LoginController@destory')->name('logout');
 Route::get('sigup','SigupController@create')->name('sigup');
 Route::post('sigup','SigupController@store')->name('sigup.store');
 //修改密码
-Route::get('edit_pwd','Edit_pwdController@create')->name('edit_pwd');
-Route::post('edit_pwd','Edit_pwdController@store')->name('edit_pwd');
+
+Route::get('passwd','PasswdController@create')->name('passwd');
+Route::post('passwd','PasswdController@ChangePassword')->name('passwd');
 
 
 //菜品状态设置路由
