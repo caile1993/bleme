@@ -47,7 +47,7 @@
                     <form style="display: inline" method="post" action="{{route('shops.destroy',[$shop])}}">
                         {{ csrf_field() }}
                         {{ method_field('delete') }}
-                        <button type="submit" class="btn btn-danger">删除</button>
+                        <button type="submit" class="btn btn-danger" onclick="return confirm('确定要删除吗?')">删除</button>
                     </form>
                 </td>
         </tr>

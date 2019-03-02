@@ -22,13 +22,8 @@
         </div>
 
         <div class="form-group">
-            <label for="rating">评分：</label>
-            <input type="text" name="rating" class="form-control" value="{{ old('rating') }}">
-        </div>
-        <div class="form-group">
             <label for="category_id">所属分类：</label>
            <select class="form-control" name="category_id">
-               <option>请选择分类</option>
                @foreach($menu_categorys as $menu_category)
                    <option value="{{$menu_category->id}}">{{$menu_category->name}}</option>
                    @endforeach
@@ -46,28 +41,8 @@
           </div>
 
         <div class="form-group">
-            <label for="month_sales">月销量：</label>
-            <input type="text" name="month_sales" class="form-control" value="{{ old('month_sales') }}">
-        </div>
-
-        <div class="form-group">
-            <label for="rating_count">评分数量：</label>
-            <input type="text" name="rating_count" class="form-control" value="{{ old('rating_count') }}">
-        </div>
-
-        <div class="form-group">
             <label for="tips">提示信息：</label>
             <input type="text" name="tips" class="form-control" value="{{ old('tips') }}">
-        </div>
-
-        <div class="form-group">
-            <label for="rating_count">满意度数量：</label>
-            <input type="text" name="satisfy_count" class="form-control" value="{{ old('satisfy_count') }}">
-        </div>
-
-        <div class="form-group">
-            <label for="rating_count">满意度评分：</label>
-            <input type="text" name="satisfy_rate" class="form-control" value="{{ old('satisfy_rate') }}">
         </div>
 
         <div class="form-group">

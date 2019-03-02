@@ -21,14 +21,14 @@
                         <tr class="odd gradeX">
                             <td>{{$shop_category->id}}</td>
                             <td>{{$shop_category->name}}</td>
-                            <td><img style="width: 50px" src="{{$shop_category->img()}}"></td>
+                            <td style="text-align: center"><img style="max-width: 15%;" src="{{$shop_category->img()}}"> </td>
                             <td>{{$shop_category->status==1?'显示':'隐藏'}}</td>
                             <td class="center">
                                 <a href="{{route('shop_categorys.edit',[$shop_category])}}" class="btn btn-info">编辑</a>
                                 <form style="display: inline" method="post" action="{{route('shop_categorys.destroy',[$shop_category])}}">
                                     {{ csrf_field() }}
                                     {{ method_field('delete') }}
-                                    <button type="submit" class="btn btn-danger">删除</button>
+                                    <button type="submit" class="btn btn-danger" onclick="return confirm('确定要删除吗?')">删除</button>
                                 </form>
                             </td>
                         </tr>
@@ -38,4 +38,5 @@
             </div>
         </div>
     </div>
+    {{ $shop_categorys->appends(['keyword'=>$keyword])->links() }}
 @stop

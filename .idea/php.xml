@@ -75,6 +75,7 @@
       <path value="$PROJECT_DIR$/www.bleme.com/vendor/laravel/framework" />
       <path value="$PROJECT_DIR$/www.bleme.com/vendor/laravel/tinker" />
       <path value="$PROJECT_DIR$/www.bleme.com/vendor/overtrue/laravel-ueditor" />
+      <path value="$PROJECT_DIR$/www.bleme.com/vendor/qcloudsms/qcloudsms_php" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7" />

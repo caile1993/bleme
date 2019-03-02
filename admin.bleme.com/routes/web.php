@@ -37,7 +37,8 @@ Route::get('logout','LoginController@destory')->name('logout');
 
 //活动路由
 Route::resource('activitys','ActivityController');
-
+//会员路由
+Route::resource('members','MemberController');
 //相当于定义了以下路由
 /*Route::get('/users', 'UsersController@index')->name('users.index');//用户列表
 Route::get('/users/{user}', 'UsersController@show')->name('users.show');//查看单个用户信息

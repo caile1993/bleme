@@ -36,6 +36,7 @@
             <p class="help-block"> <img style="width: 50px" src="{{$shop_category->img()}}"></p>
             <label for="exampleInputFile">File input</label>
             <input type="file" name="img" id="exampleInputFile3">
+            <input type="hidden" name="category_id" value="{{$shop_category->id}}">
         </div>
 
         <button type="submit" class="btn btn-default">提交</button>

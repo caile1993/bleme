@@ -8,7 +8,7 @@
             <th>姓名</th>
             <th>邮箱</th>
             <th>状态</th>
-            <th>所属商家</th>
+            <th>商家分类</th>
             <th>操作</th>
         </tr>
 
@@ -25,7 +25,7 @@
                     <form style="display: inline" method="post" action="{{route('users.destroy',[$user])}}">
                         {{ csrf_field() }}
                         {{ method_field('delete') }}
-                        <button type="submit" class="btn btn-danger">删除</button>
+                        <button type="submit" class="btn btn-danger" onclick="return confirm('确定要删除吗?')">删除</button>
                     </form>
 
                     @if($user->status)

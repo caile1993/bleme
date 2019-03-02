@@ -5,6 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/www.bleme.com/app" isTestSource="false" packagePrefix="App\" />
       <sourceFolder url="file://$MODULE_DIR$/www.bleme.com/tests" isTestSource="true" packagePrefix="Tests\" />
       <excludeFolder url="file://$MODULE_DIR$/www.bleme.com/vendor/overtrue/laravel-ueditor" />
+      <excludeFolder url="file://$MODULE_DIR$/www.bleme.com/vendor/qcloudsms/qcloudsms_php" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

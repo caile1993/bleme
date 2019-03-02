@@ -12,7 +12,7 @@ class Menu extends Model
         'satisfy_count','satisfy_rate','goods_img','status'];
 
     public function goods_img(){
-        return $this->goods_img?Storage::url($this->goods_img):'';
+        return $this->goods_img?'/'.$this->goods_img:'';
     }
 
     public function menu_category()

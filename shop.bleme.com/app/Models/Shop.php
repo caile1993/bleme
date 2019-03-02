@@ -21,7 +21,6 @@ class Shop extends Model
                             'discount',
                             'status',
                             'shop_img'];
-
         public function shop_category(){
             return $this->belongsTo(Shop_Category::class);
         }
@@ -29,4 +28,5 @@ class Shop extends Model
         public function shop_img(){
             return $this->shop_img?Storage::url($this->shop_img):'';
         }
+
 }

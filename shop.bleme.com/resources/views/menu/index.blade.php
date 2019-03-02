@@ -1,23 +1,21 @@
 @extends('layout.app')
 
 @section('contents')
-    <h3 align="center">菜品列表</h3>
     <form class="navbar-form navbar-left">
-        <div class="form-group">
-            <input type="text" name="min_price" class="form-control" placeholder="最低价格">
+        <div class="">
+            <input type="text" name="min_price" class="" placeholder="最低价格">
         </div>
         ---
-        <div class="form-group">
-            <input type="text" name="max_price" class="form-control" placeholder="最高价格">
+        <div class="">
+            <input type="text" name="max_price" class="" placeholder="最高价格">
         </div>
         ---
-        <div class="form-group">
-            <input type="text" name="keyword" class="form-control" placeholder="名称">
+        <div class="">
+            <input type="text" name="keyword" class="" placeholder="名称">
         </div>
         <button type="submit" class="btn btn-default">搜索</button>
     </form>
-
-
+    <h3 align="center">菜品列表</h3>
     <table class="table table-bordered">
         <tr align="center" bgcolor="aqua">
             <th>ID</th>
@@ -63,7 +61,7 @@
                     <form style="display: inline" method="post" action="{{route('menus.destroy',[$menu])}}">
                     {{ csrf_field() }}
                     {{ method_field('delete') }}
-                    <button type="submit" class="btn btn-danger">删除</button>
+                    <button type="submit" class="btn btn-danger" onclick="return confirm('确认要删除吗?')">删除</button>
                     </form>
                 </td>
         </tr>

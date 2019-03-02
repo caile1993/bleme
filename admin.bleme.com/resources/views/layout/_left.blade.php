@@ -72,6 +72,28 @@
                         </ul>
                     </li>
 
+                    <li class="nav-item nav-dropdown">
+                        <a href="#" class="nav-link nav-dropdown-toggle">
+                            <i class="icon icon-graph"></i>会员管理<i class="fa fa-caret-left"></i>
+                        </a>
+
+                        <ul class="nav-dropdown-items">
+                            <li class="nav-item">
+                                <a href="{{ route('members.index') }}" class="nav-link">
+                                    <i class="icon icon-graph"></i>会员列表
+                                </a>
+                            </li>
+                        </ul>
+
+                        <ul class="nav-dropdown-items">
+                            <li class="nav-item">
+                                <a href="{{ route('members.create') }}" class="nav-link">
+                                    <i class="icon icon-graph"></i>添加会员
+                                </a>
+                            </li>
+                        </ul>
+
+
                     <li class="nav-item">
                         <a href="{{ route('activitys.index') }}" class="nav-link">
                             <i class="icon icon-puzzle"></i>活动列表

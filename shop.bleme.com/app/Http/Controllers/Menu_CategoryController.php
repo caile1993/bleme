@@ -32,13 +32,13 @@ class Menu_CategoryController extends Controller
 
     }
 
-    public function create()
-    {
+     public function create()
+      {
         $shops = Shop::all();
         return view('menu_category.create',compact('shops'));
-    }
+      }
 
-    public function store(Request $request){
+     public function store(Request $request){
             $this->validate($request,[
                 'name' =>'required',
                 'description' =>'required',
@@ -55,7 +55,6 @@ class Menu_CategoryController extends Controller
                 'description'=>$request->description,
                 'is_selected'=>$request->is_selected,
             ]);
-
             return redirect()->route('menu_categorys.index')->with('success','添加成功');
     }
 
@@ -78,10 +77,10 @@ class Menu_CategoryController extends Controller
     //默认设置
     public function set(Menu_Category $menu_category)
     {
-            Menu_Category::where('is_selected','=','1')->where('shop_id','=',Auth::user()->shop_id)->update(['is_selected'=>0]);
-            $menu_category->is_selected = 1;
-            $menu_category->save();
-            return redirect()->route('menu_categorys.index')->with('success', '取消默认成功');
+                Menu_Category::where('is_selected','=','1')->where('shop_id','=',Auth::user()->shop_id)->update(['is_selected'=>0]);
+                $menu_category->is_selected = 1;
+                $menu_category->save();
+                return back()->with('success', '设置成功');
     }
         public function destroy(Menu_Category $menu_category){
             $mens = Menu::all()->where('category_id',$menu_category->id)->first();

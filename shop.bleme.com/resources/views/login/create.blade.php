@@ -1,35 +1,45 @@
 @extends('layout.app')
 
 @section('contents')
-    <h1 align="center">商家登录</h1>
-    <div class="col-md-offset-2 col-md-8">
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h5>登录</h5>
-            </div>
-            <div class="panel-body">
-                @include('layout._errors')
-                <form method="POST" action="{{ route('login') }}">
+    <form method="POST" action="{{ route('login') }}">
+        {{csrf_field()}}
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-5">
+                    <div class="card p-4">
+                        <div class="card-header text-center text-uppercase h4 font-weight-light">
+                            商户登录
+                        </div>
+                        <div class="card-body py-5">
+                            <div class="form-group">
+                                <label class="form-control-label">用户名</label>
+                                <input type="text" name="name" class="form-control">
+                            </div>
 
-                    {{ csrf_field() }}
-                    <div class="form-group">
-                        <label for="name">用户名：</label>
-                        <input type="text" name="name" class="form-control" value="{{ old('name') }}">
-                    </div>
+                            <div class="form-group">
+                                <label class="form-control-label">密码</label>
+                                <input type="password" name="password" class="form-control">
+                            </div>
 
-                    <div class="form-group">
-                        <label for="password">密码：</label>
-                        <input type="password" name="password" class="form-control" value="{{ old('password') }}">
-                    </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" name="remember"> 记住我</label>
-                    </div>
+                            <div class="custom-control custom-checkbox mt-4">
+                                <input type="checkbox" class="custom-control-input" id="login" name="remember" >
+                                <label class="custom-control-label" for="login">记住我</label>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="row">
+                                <div class="col-6">
+                                    <button type="submit" class="btn btn-primary px-5">登录</button>
+                                </div>
 
-                    <button type="submit" class="btn btn-primary">登录</button>
-                </form>
-                <hr>
-                <p>还没账号？<a href="{{route('sigup')}}">立即注册！</a></p>
+                                <div class="col-6">
+                                    没有账号？<a href="{{route('sigup')}}" class="btn btn-link">请点击注册</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+    </form>
 @stop

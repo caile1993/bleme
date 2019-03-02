@@ -10,10 +10,6 @@
         </div>
 
         <div class="form-group">
-            <label for="rating">评分：</label>
-            <input type="text" name="rating" class="form-control" value="{{ $menu->rating }}">
-        </div>
-        <div class="form-group">
             <label for="category_id">所属分类：</label>
            <select class="form-control" name="category_id">
                <option>请选择分类</option>
@@ -34,34 +30,16 @@
           </div>
 
         <div class="form-group">
-            <label for="month_sales">月销量：</label>
-            <input type="text" name="month_sales" class="form-control" value="{{ $menu->month_sales }}">
-        </div>
-
-        <div class="form-group">
-            <label for="rating_count">评分数量：</label>
-            <input type="text" name="rating_count" class="form-control" value="{{ $menu->rating_count }}">
-        </div>
-
-        <div class="form-group">
             <label for="tips">提示信息：</label>
             <input type="text" name="tips" class="form-control" value="{{ $menu->tips }}">
         </div>
 
-        <div class="form-group">
-            <label for="rating_count">满意度数量：</label>
-            <input type="text" name="satisfy_count" class="form-control" value="{{ $menu->satisfy_count}}">
-        </div>
-
-        <div class="form-group">
-            <label for="rating_count">满意度评分：</label>
-            <input type="text" name="satisfy_rate" class="form-control" value="{{ $menu->satisfy_rate }}">
-        </div>
 
         <div class="form-group">
             <label for="rating_count">商品图片：</label>
             <img style="width: 50px" src="{{$menu->goods_img()}}"/>
             <input type="file" name="goods_img" class="form-control"/>
+            <input type="hidden" name="menu_id" value="{{$menu->id}}" class="form-control"/>
         </div>
 
         <div class="form-group">

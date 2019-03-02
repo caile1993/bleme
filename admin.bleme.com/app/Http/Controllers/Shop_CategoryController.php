@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class Shop_CategoryController extends Controller
 {
-    //登录认证
+        //登录认证
     public function __construct()
     {
         $this->middleware('auth');
@@ -21,6 +21,7 @@ class Shop_CategoryController extends Controller
         }else{
             $shop_categorys =  Shop_Category::paginate(3);
         }
+
         return view('shop_category.index',compact('shop_categorys','keyword'));
     }
 
@@ -41,8 +42,7 @@ class Shop_CategoryController extends Controller
 
         //保存图片
         $img = $request->file('img');
-        $path = $img->store('public/images');
-
+        $path = $img->store(date('Ymd'));
         Shop_Category::create([
             'name' => $request->name,
             'status'=>$request->status,
@@ -50,34 +50,35 @@ class Shop_CategoryController extends Controller
         ]);
 
         return redirect()->route('shop_categorys.index')->with('success','添加成功');
-
     }
         //删除
-    public function destroy(Shop_Category $shop_category){
+        public function destroy(Shop_Category $shop_category){
         $shop_category->delete();
         return redirect()->route('shop_categorys.index')->with('success','删除成功');
-    }
+      }
 
-    public function edit(Shop_Category $shop_category){
-
-        return view('shop_category.edit',['shop_category'=>$shop_category]);
-    }
+        public function edit(Shop_Category $shop_category){
+            return view('shop_category.edit',['shop_category'=>$shop_category]);
+        }
 
     public function update(Shop_Category $shop_category,Request $request){
         $shop_category->name = $request->name;
         $shop_category->status = $request->status;
             $img = $request->file('img');
-
-            if($img){//上传图片之后
-                $path = $img->store('public/images');
-            }else{//没有上传图片
-                $path = '';
+            $category_id = $request->input('category_id');
+            $result = Shop_Category::find($category_id)->first();
+            if(file_exists($result->img)){
+                unlink($result->img);
+                if($img){//上传图片之后
+                    $path = $img->store(date('Ymd'));
+//                $path = $img->store('public/images');
+                }else{//没有上传图片
+                    $path = '';
+                }
+                $shop_category->img = $path;
+                $shop_category->save();
             }
-            $shop_category->img = $path;
-            $shop_category->save();
-
             return redirect()->route('shop_categorys.index')->with('success','修改成功');
-
     }
 
 }
