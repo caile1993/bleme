@@ -5,36 +5,17 @@
       <change beforePath="$PROJECT_DIR$/.idea/bleme.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bleme.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop.bleme.com/app/Http/Controllers/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/shop.bleme.com/app/Http/Controllers/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop.bleme.com/app/Http/Controllers/MenuController.php" beforeDir="false" afterPath="$PROJECT_DIR$/shop.bleme.com/app/Http/Controllers/MenuController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop.bleme.com/app/Http/Controllers/Menu_CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/shop.bleme.com/app/Http/Controllers/Menu_CategoryController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop.bleme.com/app/Http/Controllers/PasswdController.php" beforeDir="false" afterPath="$PROJECT_DIR$/shop.bleme.com/app/Http/Controllers/PasswdController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop.bleme.com/app/Http/Controllers/SigupController.php" beforeDir="false" afterPath="$PROJECT_DIR$/shop.bleme.com/app/Http/Controllers/SigupController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop.bleme.com/app/Models/Menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/shop.bleme.com/app/Models/Menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop.bleme.com/app/Models/Shop.php" beforeDir="false" afterPath="$PROJECT_DIR$/shop.bleme.com/app/Models/Shop.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop.bleme.com/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/shop.bleme.com/config/filesystems.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop.bleme.com/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop.bleme.com/database/migrations/2019_02_21_140755_create_shop__categories_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop.bleme.com/database/migrations/2019_02_24_235041_create_menu__categories_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/shop.bleme.com/database/migrations/2019_02_24_235041_create_menu_categories_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop.bleme.com/resources/views/login/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/shop.bleme.com/resources/views/login/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop.bleme.com/resources/views/menu/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/shop.bleme.com/resources/views/menu/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop.bleme.com/resources/views/menu/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/shop.bleme.com/resources/views/menu/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop.bleme.com/resources/views/menu/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/shop.bleme.com/resources/views/menu/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop.bleme.com/resources/views/menu_category/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/shop.bleme.com/resources/views/menu_category/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop.bleme.com/resources/views/shop/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/shop.bleme.com/resources/views/shop/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop.bleme.com/resources/views/sigup/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/shop.bleme.com/resources/views/sigup/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www.bleme.com/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/www.bleme.com/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www.bleme.com/app/Http/Controllers/Api/ApiController.php" beforeDir="false" afterPath="$PROJECT_DIR$/www.bleme.com/app/Http/Controllers/Api/ApiController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www.bleme.com/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/www.bleme.com/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www.bleme.com/app/Models/Api.php" beforeDir="false" afterPath="$PROJECT_DIR$/www.bleme.com/app/Models/Api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www.bleme.com/app/Models/Menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/www.bleme.com/app/Models/Menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www.bleme.com/app/Models/Member.php" beforeDir="false" afterPath="$PROJECT_DIR$/www.bleme.com/app/Models/Member.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www.bleme.com/app/Models/Shop.php" beforeDir="false" afterPath="$PROJECT_DIR$/www.bleme.com/app/Models/Shop.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www.bleme.com/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/www.bleme.com/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www.bleme.com/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/www.bleme.com/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www.bleme.com/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/www.bleme.com/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www.bleme.com/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/www.bleme.com/config/filesystems.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www.bleme.com/public/address.php" beforeDir="false" afterPath="$PROJECT_DIR$/www.bleme.com/public/address.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www.bleme.com/public/cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/www.bleme.com/public/cart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www.bleme.com/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www.bleme.com/public/addOrder.php" beforeDir="false" afterPath="$PROJECT_DIR$/www.bleme.com/public/addOrder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www.bleme.com/public/view/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/www.bleme.com/public/view/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www.bleme.com/public/view/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/www.bleme.com/public/view/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www.bleme.com/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/www.bleme.com/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,17 +28,63 @@
     <pharConfigPath>$PROJECT_DIR$/www.bleme.com/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www.bleme.com/app/Http/Controllers/Api/ApiController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="613">
+              <caret line="402" column="5" selection-start-line="402" selection-start-column="5" selection-end-line="402" selection-end-column="5" />
+              <folding>
+                <element signature="e#44#67#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www.bleme.com/app/Models/Order.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www.bleme.com/public/addCart.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www.bleme.com/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>.html</find>
       <find>shop_categorys</find>
       <find>url</find>
+      <find>我的收货地址</find>
+      <find>我的</find>
     </findStrings>
     <replaceStrings>
       <replace>.php</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>D:\myphp_www\PHPTutorial\WWW\bleme\www.bleme.com\public</dir>
+      <dir>D:\myphp_www\PHPTutorial\WWW\bleme\www.bleme.com</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,18 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/www.bleme.com/app/Models/Api.php" />
-        <option value="$PROJECT_DIR$/admin.bleme.com/database/migrations/2019_02_28_103750_create_members_table.php" />
-        <option value="$PROJECT_DIR$/www.bleme.com/config/auth.php" />
-        <option value="$PROJECT_DIR$/shop.bleme.com/app/Models/Shop.php" />
-        <option value="$PROJECT_DIR$/www.bleme.com/public/loginCheck.php" />
-        <option value="$PROJECT_DIR$/admin.bleme.com/database/migrations/2019_03_01_141316_create_addresses_table.php" />
-        <option value="$PROJECT_DIR$/admin.bleme.com/database/migrations/2019_03_01_141958_create_carts_table.php" />
-        <option value="$PROJECT_DIR$/www.bleme.com/app/Models/Address.php" />
-        <option value="$PROJECT_DIR$/www.bleme.com/public/address.php" />
-        <option value="$PROJECT_DIR$/www.bleme.com/public/view/api.js" />
-        <option value="$PROJECT_DIR$/www.bleme.com/public/cart.php" />
-        <option value="$PROJECT_DIR$/shop.bleme.com/resources/views/menu/create.blade.php" />
         <option value="$PROJECT_DIR$/shop.bleme.com/resources/views/login/create.blade.php" />
         <option value="$PROJECT_DIR$/shop.bleme.com/resources/views/sigup/create.blade.php" />
         <option value="$PROJECT_DIR$/admin.bleme.com/app/Http/Controllers/UserController.php" />
@@ -96,15 +111,11 @@
         <option value="$PROJECT_DIR$/www.bleme.com/config/filesystems.php" />
         <option value="$PROJECT_DIR$/www.bleme.com/app/Models/Menu.php" />
         <option value="$PROJECT_DIR$/admin.bleme.com/app/Http/Middleware/VerifyCsrfToken.php" />
-        <option value="$PROJECT_DIR$/www.bleme.com/app/Models/Member.php" />
         <option value="$PROJECT_DIR$/admin.bleme.com/resources/views/layout/_left.blade.php" />
         <option value="$PROJECT_DIR$/admin.bleme.com/app/Models/Member.php" />
         <option value="$PROJECT_DIR$/admin.bleme.com/resources/views/member/create.blade.php" />
         <option value="$PROJECT_DIR$/admin.bleme.com/app/Http/Controllers/MemberController.php" />
-        <option value="$PROJECT_DIR$/www.bleme.com/app/Http/Controllers/Api/ApiController.php" />
-        <option value="$PROJECT_DIR$/www.bleme.com/routes/web.php" />
         <option value="$PROJECT_DIR$/www.bleme.com/app/Models/Cart.php" />
-        <option value="$PROJECT_DIR$/www.bleme.com/app/Http/Middleware/VerifyCsrfToken.php" />
         <option value="$PROJECT_DIR$/shop.bleme.com/resources/views/menu/index.blade.php" />
         <option value="$PROJECT_DIR$/shop.bleme.com/resources/views/menu_category/index.blade.php" />
         <option value="$PROJECT_DIR$/shop.bleme.com/resources/views/shop/index.blade.php" />
@@ -116,6 +127,22 @@
         <option value="$PROJECT_DIR$/admin.bleme.com/resources/views/user/index.blade.php" />
         <option value="$PROJECT_DIR$/shop.bleme.com/app/Http/Controllers/SigupController.php" />
         <option value="$PROJECT_DIR$/shop.bleme.com/app/Http/Controllers/LoginController.php" />
+        <option value="$PROJECT_DIR$/shop.bleme.com/app/Http/Controllers/PasswdController.php" />
+        <option value="$PROJECT_DIR$/www.bleme.com/database/migrations/2019_03_03_112407_create_oders_table.php" />
+        <option value="$PROJECT_DIR$/www.bleme.com/database/migrations/2019_03_03_113035_create_oder_details_table.php" />
+        <option value="$PROJECT_DIR$/www.bleme.com/public/addOrder.php" />
+        <option value="$PROJECT_DIR$/www.bleme.com/app/Models/Oder.php" />
+        <option value="$PROJECT_DIR$/www.bleme.com/app/Models/Oder_details.php" />
+        <option value="$PROJECT_DIR$/www.bleme.com/database/migrations/2019_03_03_160301_create_orders_table.php" />
+        <option value="$PROJECT_DIR$/www.bleme.com/database/migrations/2019_03_03_160349_create_order_details_table.php" />
+        <option value="$PROJECT_DIR$/www.bleme.com/app/Models/OrderDetail.php" />
+        <option value="$PROJECT_DIR$/www.bleme.com/app/Models/Order.php" />
+        <option value="$PROJECT_DIR$/www.bleme.com/app/Models/Shop.php" />
+        <option value="$PROJECT_DIR$/www.bleme.com/public/view/api.js" />
+        <option value="$PROJECT_DIR$/www.bleme.com/app/Models/Member.php" />
+        <option value="$PROJECT_DIR$/www.bleme.com/app/Http/Middleware/VerifyCsrfToken.php" />
+        <option value="$PROJECT_DIR$/www.bleme.com/routes/web.php" />
+        <option value="$PROJECT_DIR$/www.bleme.com/app/Http/Controllers/Api/ApiController.php" />
       </list>
     </option>
   </component>
@@ -200,13 +227,14 @@
       <path value="$PROJECT_DIR$/www.bleme.com/vendor/laravel/tinker" />
       <path value="$PROJECT_DIR$/www.bleme.com/vendor/overtrue/laravel-ueditor" />
       <path value="$PROJECT_DIR$/www.bleme.com/vendor/qcloudsms/qcloudsms_php" />
+      <path value="$PROJECT_DIR$/www.bleme.com/vendor/predis/predis" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="51" />
-    <option name="y" value="12" />
-    <option name="width" value="1723" />
-    <option name="height" value="955" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="7" />
+    <option name="y" value="3" />
+    <option name="width" value="1510" />
+    <option name="height" value="928" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -214,6 +242,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -252,15 +281,24 @@
               <item name="bleme" type="462c0819:PsiDirectoryNode" />
               <item name="www.bleme.com" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="Api" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bleme" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bleme" type="462c0819:PsiDirectoryNode" />
+              <item name="www.bleme.com" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bleme" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bleme" type="462c0819:PsiDirectoryNode" />
+              <item name="www.bleme.com" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -346,16 +384,21 @@
       <workItem from="1551525229276" duration="13073000" />
       <workItem from="1551539594572" duration="1824000" />
       <workItem from="1551541754913" duration="4140000" />
+      <workItem from="1551574948934" duration="20568000" />
+      <workItem from="1551609887936" duration="1206000" />
+      <workItem from="1551613018609" duration="15954000" />
+      <workItem from="1551661239729" duration="2285000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="318439000" />
+    <option name="totallyTimeSpent" value="358452000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="41" y="10" width="1378" height="764" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19794722" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15364583" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -368,7 +411,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.7783572" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.7757497" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32724902" />
       <window_info active="true" anchor="bottom" id="Command Line Tools Console" order="12" weight="0.5955882" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -386,351 +429,288 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Models/Shop.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="29" column="68" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Models/Shop_Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/login/create.blade.php">
+    <entry file="file://$PROJECT_DIR$/www.bleme.com/app/Http/Kernel.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Http/Controllers/AdminController.php">
+    <entry file="file://$PROJECT_DIR$/www.bleme.com/app/Models/Oder_details.php" />
+    <entry file="file://$PROJECT_DIR$/www.bleme.com/app/Models/Oder.php" />
+    <entry file="file://$PROJECT_DIR$/www.bleme.com/database/migrations/2019_03_03_112407_create_oders_table.php" />
+    <entry file="file://$PROJECT_DIR$/www.bleme.com/database/migrations/2019_03_03_113035_create_oder_details_table.php" />
+    <entry file="file://$PROJECT_DIR$/www.bleme.com/database/migrations/2019_03_03_160301_create_orders_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-361">
-          <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+        <state relative-caret-position="427">
+          <caret line="28" column="43" lean-forward="true" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/shop_category/edit.blade.php">
+    <entry file="file://$PROJECT_DIR$/www.bleme.com/database/migrations/2019_03_03_160349_create_order_details_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="437">
+          <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop.bleme.com/app/Http/Controllers/MenuController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="94" column="28" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop.bleme.com/app/Models/Menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Http/Controllers/Shop_CategoryController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="70" column="37" lean-forward="true" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Providers/AppServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-77" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Providers/AuthServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-77" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Providers/BroadcastServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Providers/EventServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-123" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Providers/RouteServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1035" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3519" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/config/filesystems.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="51" column="36" selection-start-line="49" selection-start-column="7" selection-end-line="51" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop.bleme.com/config/filesystems.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www.bleme.com/config/filesystems.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www.bleme.com/app/Models/Menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www.bleme.com/app/Models/Menu_Category.php">
+    <entry file="file://$PROJECT_DIR$/www.bleme.com/app/Models/OrderDetail.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
-          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Http/Middleware/VerifyCsrfToken.php">
+    <entry file="file://$PROJECT_DIR$/www.bleme.com/app/Models/Shop.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        <state relative-caret-position="207">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.bleme.com/public/view/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.bleme.com/public/orderList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-345">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.bleme.com/public/addressList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.bleme.com/public/addOrder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.bleme.com/public/addAddress.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.bleme.com/public/editAddress.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.bleme.com/public/web.config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.bleme.com/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-721" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.bleme.com/public/changePassword.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.bleme.com/public/order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.bleme.com/public/loginCheck.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.bleme.com/public/pay.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.bleme.com/public/view/static/css/app.b2211f713128ed194bc35384c5974109.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8533">
+          <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.bleme.com/public/view/static/images/shop-logo1.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.bleme.com/public/view/static/js/app.18eec2423ba87938efc5.js.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3174" />
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.bleme.com/public/view/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.bleme.com/public/view/static/img/slider-pic3.0f54fcf.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.bleme.com/public/view/static/img/slider-pic1.b7ed189.jpeg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/www.bleme.com/app/Models/Member.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/layout/_left.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="85" column="29" lean-forward="true" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Models/Member.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Http/Controllers/MemberController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
-            <element signature="e#40#62#0#PHP" expanded="true" />
+            <element signature="e#30#69#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/member/create.blade.php">
+    <entry file="file://$PROJECT_DIR$/www.bleme.com/public/view/static/css/app.47e55999fc0686156d5f4aa6935c0f4b.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="-644">
+          <caret line="203" column="19" lean-forward="true" selection-start-line="203" selection-start-column="19" selection-end-line="203" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www.bleme.com/public/businessList.php">
+    <entry file="file://$PROJECT_DIR$/../1.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop.bleme.com/app/Http/Controllers/SigupController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="104" column="21" lean-forward="true" selection-start-line="104" selection-start-column="21" selection-end-line="104" selection-end-column="21" />
+        <state relative-caret-position="161">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www.bleme.com/public/cart.php">
+    <entry file="file://$PROJECT_DIR$/shop.bleme.com/app/Http/Controllers/PasswdController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        <state relative-caret-position="529">
+          <caret line="40" column="78" selection-start-line="40" selection-start-column="78" selection-end-line="40" selection-end-column="78" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www.bleme.com/app/Providers/AuthServiceProvider.php">
+    <entry file="file://$PROJECT_DIR$/www.bleme.com/public/forgetPassword.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www.bleme.com/app/Providers/AppServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www.bleme.com/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www.bleme.com/app/Models/Cart.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www.bleme.com/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+        <state relative-caret-position="115">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www.bleme.com/app/Http/Middleware/VerifyCsrfToken.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        <state relative-caret-position="460">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop.bleme.com/resources/views/menu/create.blade.php">
+    <entry file="file://$PROJECT_DIR$/shop.bleme.com/app/Http/Middleware/VerifyCsrfToken.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="276">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop.bleme.com/resources/views/menu/edit.blade.php">
+    <entry file="file://$PROJECT_DIR$/shop.bleme.com/app/Http/Controllers/MenuController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="1984">
+          <caret line="93" column="27" lean-forward="true" selection-start-line="93" selection-start-column="27" selection-end-line="93" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop.bleme.com/resources/views/menu/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Http/Controllers/ShopController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="65" column="21" lean-forward="true" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+        <state relative-caret-position="-2254">
+          <caret line="21" column="74" lean-forward="true" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="74" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop.bleme.com/resources/views/menu_category/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/shop.bleme.com/app/Http/Controllers/ActivityController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
+        <state relative-caret-position="-77" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop.bleme.com/resources/views/shop/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Http/Controllers/Shop_CategoryController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1127">
-          <caret line="49" column="101" selection-start-line="49" selection-start-column="101" selection-end-line="49" selection-end-column="101" />
-        </state>
+        <state relative-caret-position="-560" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop.bleme.com/resources/views/user/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/shop.bleme.com/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop.bleme.com/app/Http/Controllers/Menu_CategoryController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-        </state>
+        <state relative-caret-position="-1311" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop.bleme.com/resources/views/activity/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Http/Controllers/AdminController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/activity/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="44" column="101" selection-start-line="44" selection-start-column="101" selection-end-line="44" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/admin/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="30" column="105" selection-start-line="30" selection-start-column="105" selection-end-line="30" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/member/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="29" column="105" selection-start-line="29" selection-start-column="105" selection-end-line="29" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/shop/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="51" column="113" selection-start-line="51" selection-start-column="113" selection-end-line="51" selection-end-column="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/shop_category/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="30" column="113" selection-start-line="30" selection-start-column="113" selection-end-line="30" selection-end-column="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.bleme.com/resources/views/user/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-        </state>
+        <state relative-caret-position="-146" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Http/Controllers/LoginController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="521">
+          <caret line="33" column="37" lean-forward="true" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
           <folding>
             <element signature="e#40#68#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop.bleme.com/app/Http/Controllers/ShopController.php">
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Http/Controllers/MemberController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        <state relative-caret-position="-376" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Http/Controllers/PasswdController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="28" column="49" lean-forward="true" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop.bleme.com/app/Http/Controllers/LoginController.php">
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Http/Controllers/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
-          <folding>
-            <element signature="e#42#62#0#PHP" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-345" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop.bleme.com/app/Http/Controllers/SigupController.php">
+    <entry file="file://$PROJECT_DIR$/admin.bleme.com/app/Http/Controllers/ActivityController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
+        <state relative-caret-position="-1434" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www.bleme.com/app/Http/Controllers/Api/ApiController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="210" column="5" lean-forward="true" selection-start-line="210" selection-start-column="5" selection-end-line="210" selection-end-column="5" />
+        <state relative-caret-position="613">
+          <caret line="402" column="5" selection-start-line="402" selection-start-column="5" selection-end-line="402" selection-end-column="5" />
+          <folding>
+            <element signature="e#44#67#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.bleme.com/app/Models/Order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.bleme.com/public/addCart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.bleme.com/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>

@@ -9,6 +9,6 @@ class Member extends Authenticatable
 {
     //
 
-    protected $fillable = ['username','password','tel'];
+    protected $fillable = ['username','password','tel','remember_token'];
 
 }

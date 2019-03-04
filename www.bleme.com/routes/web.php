@@ -38,3 +38,13 @@ Route::post('/api/editAddress','Api\ApiController@editAddress');
 Route::get('/api/Cart','Api\ApiController@Cart');
 Route::post('/api/AddCart','Api\ApiController@AddCart');
 
+//添加订单接口
+Route::post('/api/addOrder','Api\ApiController@addOrder');
+Route::get('/api/orderList','Api\ApiController@orderList');
+Route::get('/api/order','Api\ApiController@order');
+//密码接口
+Route::post('/api/changePassword','Api\ApiController@changePassword');
+Route::post('/api/forgetPassword','Api\ApiController@forgetPassword');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

@@ -41,6 +41,6 @@ class PasswdController extends Controller
             $admin->update(['password' =>Hash::make($request->new_password)]);
             Auth::logout();
             return redirect()->route('login')->with('success','修改成功，请重新登录');
-
     }
+
 }
